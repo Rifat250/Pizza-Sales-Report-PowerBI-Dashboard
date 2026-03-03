@@ -1,16 +1,16 @@
-🍕 __Pizza Sales Performance Analysis Dashboardhboard | Power BI__
+# 🍕 __Pizza Sales Performance Analysis Dashboardhboard | Power BI__
 
-1️⃣ __Title__
+## 1️⃣ __Title__
 
 Pizza Sales Performance & Business Insights Dashboard 
 
-2️⃣ __Executive Summary__
+## 2️⃣ __Executive Summary__
 
-📌 __Business Problem__
+### 📌 __Business Problem__
 
 The business needed a comprehensive analysis of pizza sales performance to understand revenue trends, customer ordering behavior, product popularity, and underperforming items. Management lacked a centralized dashboard to track KPIs and identify actionable insights.
 
-💡 __Solution__
+### 💡 __Solution__
 
 An interactive Power BI dashboard was developed to:
 * Track key performance indicators (KPIs)
@@ -21,14 +21,14 @@ An interactive Power BI dashboard was developed to:
 
 The dashboard integrates a structured data model with calculated DAX measures and dynamic visualizations to support real-time decision-making.
 
-📊 __Number Impact__
+### 📊 __Number Impact__
 * Total Revenue: $817.86K
 * Total Orders: 21.35K
 * Total Pizzas Sold: 49.57K
 * Average Order Value: $38.31
 * Average Pizzas per Order: 2.32
 
-📍 __Key insights__:
+### 📍 __Key insights__:
 * Orders peak on Thursday and Friday
 * Highest monthly sales observed in May and July
 * Classic category drives maximum revenue and orders
@@ -36,7 +36,7 @@ The dashboard integrates a structured data model with calculated DAX measures an
 * Thai Chicken Pizza generates the highest revenue
 * Brie Carre Pizza is the most underperforming product
 
-3️⃣ __Business Problem (Scenario Explanation)__
+## 3️⃣ __Business Problem (Scenario Explanation)__
 
 The pizza company operates across multiple categories and sizes but lacked visibility into:
 
@@ -61,16 +61,16 @@ The dashboard visualizes:
 
 This enables data-driven decision-making rather than assumptions.
 
-4️⃣ __Methodology__
+## 4️⃣ __Methodology__
 
-🔷 __Data Modeling__
+### 🔷 __Data Modeling__
 * Created a Star Schema Model
 * Fact Table: pizza_sales
 * Dimension Table: Calendar Table
 * Dedicated _Measure Table for clean DAX organization
 * Established one-to-many relationship between Calendar and Sales
 
-🔷 __KPI Calculations (DAX)__
+### 🔷 __KPI Calculations (DAX)__
 
 Key Measures:
 * Total Revenue = SUM(total_price)
@@ -79,7 +79,7 @@ Key Measures:
 * Average Order Value = Total Revenue / Total Orders
 * Average Pizzas per Order = Total Pizzas Sold / Total Orders
 
-🔷 __Analytical Approach__
+### 🔷 __Analytical Approach__
 * Trend Analysis (Daily & Monthly patterns)
 * Category Contribution Analysis
 * Size Preference Analysis
@@ -92,7 +92,7 @@ I designed and built the dashboard entirely in Power BI, focusing on:
 * Interactive slicers
 * Business-focused insights
 
-4️⃣ __Skills Used__
+## 4️⃣ __Skills Used__
 * Data Modeling (Star Schema)
 * DAX Measures & Calculations
 * Time Intelligence
@@ -103,9 +103,9 @@ I designed and built the dashboard entirely in Power BI, focusing on:
 * Funnel Chart
 * Ranking (Top N / Bottom N logic)
 
-6️⃣ __Results & Business Recommendations__
+## 6️⃣ __Results & Business Recommendations__
 
-📊 __Key Findings__
+### 📊 __Key Findings__
 1. Revenue is highly concentrated in the Classic category.
 2. Large pizzas drive the largest percentage of sales.
 3. Sales peak on Thursday & Friday, suggesting weekend demand preparation.
@@ -113,31 +113,31 @@ I designed and built the dashboard entirely in Power BI, focusing on:
 5. Brie Carre Pizza consistently underperforms across revenue, quantity, and orders.
 6. Customers order an average of 2.32 pizzas per order, indicating bundle potential.
 
-🚀 __Business Recommendations__
-1. __Inventory Optimization__
+### 🚀 __Business Recommendations__
+#### 1. Inventory Optimization
 
 Increase stock of top-performing pizzas (Thai Chicken, Classic Deluxe).
 
-2. Marketing Strategy
+#### 2. Marketing Strategy
 * Promote underperforming pizzas through discounts.
 * Create combo deals to increase average pizzas per order.
 
-3. Operational Planning
+#### 3. Operational Planning
 * Increase staffing on Thursdays and Fridays.
 * Prepare inventory for peak months (May & July).
 
-4. Menu Engineering
+#### 4. Menu Engineering
 * Consider reformulating or replacing the Brie Carre Pizza.
 * Highlight best sellers in promotional campaigns.
 
-5. Upselling Strategy
+#### 5. Upselling Strategy
 
 Since customers order 2.32 pizzas per order, introduce:
 * Family bundles
 * Size upgrades
 * Add-on offers
 
-📂 __Files__
+### 📂 __Files__
 * Power BI file (.pbix)
 * Dashboard screenshots
 * Data model diagram
